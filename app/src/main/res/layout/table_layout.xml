@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Student Details"
+            android:textSize="25sp"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_column="1"
+            android:text="Shreeram"
+            android:padding="3dip" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="90"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Shreyas"
+            android:padding="3dip" />
+        <TextView
+            android:text="100"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Arun"
+            android:padding="3dip" />
+        <TextView
+            android:text="85"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView
+            android:text="Vicky"
+            android:layout_column="1"
+            android:padding="3dip" />
+        <TextView
+            android:text="90"
+            android:padding="3dip" />
+    </TableRow>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Go Back" />
+    </TableRow>
+</TableLayout>
